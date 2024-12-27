@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BMI calculator</title>
 </head>
 <body>
     <script>
@@ -13,25 +13,25 @@
         const h2=h/100
         const h3=h2*h2
         const bmi=w/h3
-        console.log(`Your BMI is ${bmi}`)
+        alert(`Your BMI is ${bmi}`)
 
         if(bmi<18.5){
-            console.log("Underweight")
+            alert("Underweight")
         }
         if(bmi>=18.5 && bmi<25){
-            console.log("Normal weight")
+            alert("Normal weight")
         }
         if(bmi>=25 && bmi<30){
-            console.log("Overweight")
+            alert("Overweight")
         }
         if(bmi>=30 && bmi<35){
-            console.log("Obese")
+            alert("Obese")
         }
         if(bmi>35){
-            console.log("Extreamly obese")
+            alert("Extreamly obese")
         }
         else{
-            console.log(invalid)
+            alert(invalid)
         }
 
 
